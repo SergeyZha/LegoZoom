@@ -7,3 +7,22 @@ $font-white: white ;
 $bg-blk: black;
 $bull-red: #fa2020;
 $slimer :#33d40b;
+
+@mixin lego_boys {
+    border-radius: 5px;
+    height: 25rem;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 1rem;
+ }
+
+
+ @mixin slimer {
+    color: $slimer;
+    font-weight: 1rem;
+    font-size: 2.5rem;
+    padding: 1rem;
+ }

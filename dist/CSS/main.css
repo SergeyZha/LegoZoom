@@ -48,39 +48,31 @@ header {
 }
 
 .images .lego-boys:nth-child(1) {
-  background-image: url(./dist/assets/student-1.jpeg);
+  background-image: url(/dist/assets/student-1.jpeg);
 }
-
 .images .lego-boys:nth-child(2) {
-  background-image: url(./dist/assets/student-2.jpeg);
+  background-image: url(/dist/assets/student-2.jpeg);
 }
-
 .images .lego-boys:nth-child(3) {
-  background-image: url(./dist/assets/student-3.jpeg);
+  background-image: url(/dist/assets/student-3.jpeg);
 }
-
 .images .lego-boys:nth-child(4) {
-  background-image: url(./dist/assets/student-4.jpeg);
+  background-image: url(/dist/assets/student-4.jpeg);
 }
-
 .images .lego-boys:nth-child(5) {
-  background-image: url(./dist/assets/student-5.jpeg);
+  background-image: url(/dist/assets/student-5.jpeg);
 }
-
 .images .lego-boys:nth-child(6) {
-  background-image: url(./dist/assets/student-6.jpeg);
+  background-image: url(/dist/assets/student-6.jpeg);
 }
-
 .images .lego-boys:nth-child(7) {
-  background-image: url(./dist/assets/student-7.jpeg);
+  background-image: url(/dist/assets/student-7.jpeg);
 }
-
 .images .lego-boys:nth-child(8) {
-  background-image: url(./dist/assets/student-8.jpeg);
+  background-image: url(/dist/assets/student-8.jpeg);
 }
-
 .images .lego-boys:nth-child(9) {
-  background-image: url(./dist/assets/student-9.jpeg);
+  background-image: url(/dist/assets/student-9.jpeg);
 }
 
 .bottom {
