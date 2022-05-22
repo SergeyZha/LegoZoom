@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #282b28;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  max-width: 80%;
+  margin: 16rem auto;
+  gap: 2rem;
+}
+.images .lego-boys {
+  border-radius: 5px;
+  height: 25rem;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.images .lego-boys p {
+  background-color: rgba(175, 168, 168, 0.8);
+  padding: 0.7rem;
+  font-size: 1.8rem;
+  color: white;
+}
+
+.images .lego-boys:nth-child(1) {
+  background-image: url(/dist/assets/student-1.jpeg);
+}
+
+.images .lego-boys:nth-child(2) {
+  background-image: url(/dist/assets/student-2.jpeg);
+}
+
+.images .lego-boys:nth-child(3) {
+  background-image: url(/dist/assets/student-3.jpeg);
+}
+
+.images .lego-boys:nth-child(4) {
+  background-image: url(/dist/assets/student-4.jpeg);
+}
+
+.images .lego-boys:nth-child(5) {
+  background-image: url(/dist/assets/student-5.jpeg);
+}
+
+.images .lego-boys:nth-child(6) {
+  background-image: url(/dist/assets/student-6.jpeg);
+}
+
+.images .lego-boys:nth-child(7) {
+  background-image: url(/dist/assets/student-7.jpeg);
+}
+
+.images .lego-boys:nth-child(8) {
+  background-image: url(/dist/assets/student-8.jpeg);
+}
+
+.images .lego-boys:nth-child(9) {
+  background-image: url(/dist/assets/student-9.jpeg);
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+  font-size: 2rem;
+}
+.bottom button {
+  background-color: #fa2020;
+  padding: 0.5rem 3rem;
+  border-radius: 5px;
+  color: white;
+  margin: 1rem;
+  cursor: pointer;
+}
+.bottom div {
+  cursor: pointer;
+}
+
+section i {
+  color: #33d40b;
+  font-weight: 1rem;
+  font-size: 2.5rem;
+  padding: 1rem;
+}/*# sourceMappingURL=main.css.map */

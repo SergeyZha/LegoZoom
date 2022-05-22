@@ -1,0 +1,14 @@
+{
+  "name": "uib-layout-zoom-session",
+  "version": "1.0.0",
+  "description": "Let's practice our layout skills by creating the page shown in the reference images below -",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.51.0"
+  }
+}
