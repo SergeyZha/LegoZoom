@@ -133,10 +133,17 @@ header {
         color: $font-white;
         margin: 1rem;
         cursor: pointer;
+
+        &:hover {
+            transform: scale(1.5);
+            
+            
+        }
     }
 
     div {
         cursor: pointer;
+        
     }
 
 }

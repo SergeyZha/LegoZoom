@@ -103,6 +103,9 @@ header {
   margin: 1rem;
   cursor: pointer;
 }
+.bottom button:hover {
+  transform: scale(1.5);
+}
 .bottom div {
   cursor: pointer;
 }
