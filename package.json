@@ -4,6 +4,7 @@
   "description": "Let's practice our layout skills by creating the page shown in the reference images below -",
   "main": "index.js",
   "scripts": {
+    "start": "run-p watch watch:styles",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "me",
